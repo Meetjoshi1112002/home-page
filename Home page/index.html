@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <script>
+        let prevscrollpos = window.pageYOffset;
+        window.onscroll = function(){
+            let currscrolpos = window.pageYOffset;
+            if(prevscrollpos > currscrolpos){
+                document.getElementById('navc').style.top = "0";
+            }else{
+                document.getElementById('navc').style.top = "-125px";
+            }
+            prevscrollpos = currscrolpos
+        }
+    </script>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Avashkyam HOme page</title>
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+    <div class="page">
+        <div class="Container1" id="navc">
+        <div class="logo">Avashkyam</div>
+        <div class="iteam1">
+            <ul>
+                <li class="button">Canteen</li>
+                <li class="button">Studnet Bank</li>
+                <li class="button">Consumer</li>
+                <li class="button">Help</li>
+                <li class="button">Log in</li>
+            </ul>
+        </div>
+    </div>
+</div>
+sdfsdf;<br><br><br><br>asdfksdf
+</body>
+</html>
